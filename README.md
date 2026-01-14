@@ -1,33 +1,40 @@
-# Iris Flower Classification using Machine Learning
+# 🌸 Iris Flower Classification using Machine Learning
 
-This is my first Machine Learning project. The goal of this project is to predict the species of an Iris flower using machine learning techniques.
+Welcome to my **first Machine Learning project**!  
+In this project, I built a model that predicts the **species of an Iris flower** using its physical measurements.
 
----
-
-## Project Overview
-
-The model classifies Iris flowers into three categories:
-- Iris Setosa
-- Iris Versicolor
-- Iris Virginica
-
-A Support Vector Machine (SVM) classifier is used for this task.
+This project helped me understand the **complete machine learning workflow**, from data exploration to model saving.
 
 ---
 
-## Dataset
+## 🚀 Project Overview
 
-- Iris dataset by R. A. Fisher (1936)
+The objective of this project is to classify Iris flowers into one of the following categories:
+
+- 🌼 Iris Setosa  
+- 🌼 Iris Versicolor  
+- 🌼 Iris Virginica  
+
+A **Support Vector Machine (SVM)** classifier is used to perform this classification task.
+
+---
+
+## 📊 Dataset Details
+
+- Dataset: Iris Dataset (R. A. Fisher, 1936)
 - Total samples: 150
-- Features:
+- Number of classes: 3
+- Features used:
   - Sepal length (cm)
   - Sepal width (cm)
   - Petal length (cm)
   - Petal width (cm)
 
+This dataset is widely used as a beginner-friendly benchmark in machine learning.
+
 ---
 
-## Tools and Libraries
+## 🛠 Tools & Technologies
 
 - Python
 - NumPy
@@ -36,39 +43,48 @@ A Support Vector Machine (SVM) classifier is used for this task.
 - Seaborn
 - Scikit-learn
 - Google Colab
+- GitHub
 
 ---
 
-## Machine Learning Model
+## 🤖 Machine Learning Model
 
 - Algorithm: Support Vector Machine (SVM)
-- Train/Test Split: 80% training, 20% testing
+- Data split:
+  - 80% Training
+  - 20% Testing
 
 ---
 
-## Model Evaluation
+## 📈 Model Evaluation
 
-The model was evaluated using:
-- Accuracy score
+The model performance was evaluated using:
+
+- Accuracy Score
 - Precision
 - Recall
 - F1-score
 - Confusion Matrix
 
-### Results
-- Accuracy: approximately 97%
+### ✅ Results
+- Model Accuracy: **~97%**
+- The classifier performs well across all three Iris species.
 
 ---
 
-## Saved Model
+## 💾 Saved Model
 
-The trained model is saved using pickle as:
-
-SVM.pickle
+The trained model is saved using Python’s `pickle` module:
 
 ---
 
-## Project Structure
+## SVM.pickle
+
+This allows the model to be reused without retraining.
+
+---
+
+## 📁 Project Structure
 
 first-ml-project-iris  
 ├── iris.ipynb  
@@ -78,39 +94,41 @@ first-ml-project-iris
 
 ---
 
-## How to Run the Project
+## ▶️ How to Run the Project
 
-1. Clone the repository:
+### 1️⃣ Clone the repository
+https://github.com/hewageumesha/machine-learning-iris-classification.git
 
-
-2. Install dependencies:
+### 2️⃣ Install dependencies
 pip install -r requirements.txt
 
-3. Open the notebook:
+### 3️⃣ Open the notebook
 jupyter notebook iris.ipynb
 
 ---
 
-## Run on Google Colab
+## 📓 Run on Google Colab
 
-Open the notebook using Google Colab:  
+Open and run the notebook directly in Google Colab:  
 https://colab.research.google.com/drive/1fa2vHydkOifXPqFGRkCgz1KEi-NLYUCq?usp=sharing
 
 ---
 
-## Key Learnings
+## 🎯 Key Learnings
 
-- Understanding the machine learning workflow
-- Data visualization and analysis
-- Model training and evaluation
-- Saving and loading ML models
-
----
-
-## Author
-
-M.H.Nethmi Umesha
+- Understanding the end-to-end machine learning pipeline
+- Data analysis and visualization techniques
+- Training and evaluating classification models
+- Saving and loading trained ML models
+- Using GitHub to share ML projects
 
 ---
 
-If you like this project, please give it a star.
+## 👤 Author
+
+**M. H. Nethmi Umesha**  
+Machine Learning | Python | Data Science Enthusiast  
+
+---
+
+⭐ If you found this project useful, don’t forget to give it a star!

@@ -1,0 +1,4 @@
+import pickle
+
+with open('SVM.pickle', 'wb') as f:
+    pickle.dump(svn, f)
